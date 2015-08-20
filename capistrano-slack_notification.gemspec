@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'capistrano/slack_notification/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "capistrano-slack_notification"
+  spec.name          = "capistrano_netbox_api"
   spec.version       = Capistrano::SlackNotification::VERSION
   spec.authors       = ["d.protasov"]
   spec.email         = ["d.protasov@netbox.ru"]
   spec.summary       = %q{Notify Capistrano deployment to Slack.}
   spec.description   = %q{Notify Capistrano deployment to Slack.}
-  spec.homepage      = "https://github.com/netbox/slack_notification"
+  spec.homepage      = "https://github.com/netbox/capistrano_netbox_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
